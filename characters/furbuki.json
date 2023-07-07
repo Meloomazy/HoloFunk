@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "FoobIdle"
+		},
+		{
+			"offsets": [
+				-59,
+				-23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "FoobLeft0"
+		},
+		{
+			"offsets": [
+				-61,
+				-64
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "FoobDown0"
+		},
+		{
+			"offsets": [
+				16,
+				61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "FoobUp0"
+		},
+		{
+			"offsets": [
+				23,
+				-11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "FoobRight0"
+		},
+		{
+			"offsets": [
+				-59,
+				-23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "FoobLeftMISS0"
+		},
+		{
+			"offsets": [
+				-59,
+				-23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmissLoop",
+			"indices": [],
+			"name": "FoobLeftMISS0"
+		},
+		{
+			"offsets": [
+				-61,
+				-64
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "FoobDownMISS0"
+		},
+		{
+			"offsets": [
+				16,
+				61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "FoobUpMISS0"
+		},
+		{
+			"offsets": [
+				23,
+				-11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "FoobRightMISS0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Furbuki",
+	"position": [
+		50,
+		50
+	],
+	"healthicon": "furbuki",
+	"flip_x": true,
+	"healthbar_colors": [
+		55,
+		192,
+		253
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

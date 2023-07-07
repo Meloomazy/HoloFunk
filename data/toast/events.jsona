@@ -1,0 +1,41 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Change Character",
+						"dad",
+						"camellia"
+					]
+				]
+			],
+			[
+				26181.8181818182,
+				[
+					[
+						"Change Character",
+						"bf",
+						"vigilante"
+					]
+				]
+			],
+			[
+				43636.3636363636,
+				[
+					[
+						"Change Character",
+						"bf",
+						"bf-holo"
+					],
+					[
+						"Change Character",
+						"dad",
+						"bobmellia"
+					]
+				]
+			]
+		]
+	}
+}

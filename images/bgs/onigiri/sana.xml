@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="sana.png">
+<SubTexture name="sana bop 20000" x="285" y="0" width="293" height="644" frameX="-27" frameY="-26" frameWidth="356" frameHeight="676" />
+<SubTexture name="sana bop 20001" x="0" y="0" width="285" height="653" frameX="-32" frameY="-17" frameWidth="356" frameHeight="676" />
+<SubTexture name="sana bop 20002" x="578" y="0" width="281" height="644" frameX="-30" frameY="-25" frameWidth="356" frameHeight="676" />
+<SubTexture name="sana bop 20003" x="859" y="0" width="289" height="637" frameX="-26" frameY="-30" frameWidth="356" frameHeight="676" />
+<SubTexture name="sana bop 20004" x="1148" y="0" width="295" height="624" frameX="-22" frameY="-45" frameWidth="356" frameHeight="676" />
+</TextureAtlas>

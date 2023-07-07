@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+			"name": "AloeDancingBeat"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+			"name": "AloeDancingBeat"
+		},
+		{
+			"offsets": [
+				48,
+				-33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "AloeLeft0"
+		},
+		{
+			"offsets": [
+				-26,
+				-73
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "AloeDown0"
+		},
+		{
+			"offsets": [
+				-17,
+				52
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "AloeUp0"
+		},
+		{
+			"offsets": [
+				0,
+				-15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "AloeRight0"
+		},
+		{
+			"offsets": [
+				48,
+				-23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "AloeLeftMiss0"
+		},
+		{
+			"offsets": [
+				-24,
+				-66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "AloeDownMisss0"
+		},
+		{
+			"offsets": [
+				-17,
+				55
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "AloeUpMiss0"
+		},
+		{
+			"offsets": [
+				0,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "AloeRightMiss0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/NerdAloo",
+	"position": [
+		50,
+		100
+	],
+	"healthicon": "aloe-nerd",
+	"flip_x": true,
+	"healthbar_colors": [
+		239,
+		113,
+		177
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

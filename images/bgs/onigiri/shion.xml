@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="shion.png">
+<SubTexture name="shion idle0000" x="0" y="0" width="278" height="519" frameX="-20" frameY="-34" frameWidth="307" frameHeight="561" />
+<SubTexture name="shion idle0001" x="278" y="0" width="294" height="511" frameX="-13" frameY="-41" frameWidth="307" frameHeight="561" />
+<SubTexture name="shion idle0002" x="874" y="0" width="301" height="505" frameX="-6" frameY="-47" frameWidth="307" frameHeight="561" />
+<SubTexture name="shion idle0003" x="572" y="0" width="302" height="509" frameX="-4" frameY="-43" frameWidth="307" frameHeight="561" />
+<SubTexture name="shion idle0004" x="0" y="519" width="303" height="497" frameX="-4" frameY="-56" frameWidth="307" frameHeight="561" />
+</TextureAtlas>

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "bob_idle"
+		},
+		{
+			"offsets": [
+				7,
+				-86
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bob_down"
+		},
+		{
+			"offsets": [
+				0,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bob_right"
+		},
+		{
+			"offsets": [
+				0,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "bob_shoot"
+		},
+		{
+			"offsets": [
+				2,
+				15
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-altr",
+			"indices": [],
+			"name": "bob_dumpy"
+		},
+		{
+			"offsets": [
+				0,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bob_left"
+		},
+		{
+			"offsets": [
+				1,
+				-22
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bob_up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bobmellia",
+	"position": [
+		-350,
+		50
+	],
+	"healthicon": "bobmellia",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		40,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 0.85
+}

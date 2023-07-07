@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ab011823bb4f040f6a1985f9516963, type: 3}
+  m_Name: Meta
+  m_EditorClassIdentifier:
+  name: D.O.O.G.
+  artist: GGalactigal (ft. Saster)
+  week: 7
+  useVocals: 1
+  isEx: 0
+  freeplayDialogue: 0
+  IgnoreCharacter: 1
+  DisallowPlayOpponent: 0
+  RequireUnlock: 1
+  SwitchLosingAndWinningInPlayOpponentMode: 0
+  HolomemDisable: 0
+  NewTag: 1
+  ClearFlags: []
+  difficulties:
+  - hidden: 0
+    name: easy
+    chart:
+      m_AssetGUID: 967633e68dd84e6469777fd9f4c740b9
+      m_SubObjectName:
+      m_SubObjectType:
+    charter: Chompo
+    displayName: Easy
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+  - hidden: 0
+    name: normal
+    chart:
+      m_AssetGUID: d003895fa9a6947469e60b6bfd46f92b
+      m_SubObjectName:
+      m_SubObjectType:
+    charter: Chompo
+    displayName: Normal
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+  - hidden: 0
+    name: hard
+    chart:
+      m_AssetGUID: 0ecb5db9050388140a842d4543c8bffa
+      m_SubObjectName:
+      m_SubObjectType:
+    charter: Chompo
+    displayName: Hard
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+  initDifficulty: normal
+  icon:
+    m_AssetGUID: 9e4dcb5c1e4b4a0498e3fd24947a55a1
+    m_SubObjectName: doog_neutral
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  selectedIcon:
+    m_AssetGUID: 9e4dcb5c1e4b4a0498e3fd24947a55a1
+    m_SubObjectName: doog_winning
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  background:
+    m_AssetGUID: ec60d2f951c713b459c89f01f584afd1
+    m_SubObjectName: korone
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  colors:
+  - r: 1
+    g: 0.827451
+    b: 0.31764707
+    a: 1
+  loadingScreen:
+    m_AssetGUID: b4908029def05204a9eb4bc8a5d3c667
+    m_SubObjectName:
+    m_SubObjectType:
+  PreSongDialogue: {fileID: 11400000, guid: 15e7a5845dea7804a8d51e6bcbe2eccc, type: 2}
+  PostSongDialogue: {fileID: 11400000, guid: 53c98406d90b210478bf859d45d96b38, type: 2}

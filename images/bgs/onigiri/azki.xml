@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="azki.png">
+<SubTexture name="azki bop 10000" x="456" y="578" width="232" height="554" frameX="-29" frameY="-55" frameWidth="300" frameHeight="610" />
+<SubTexture name="azki bop 20000" x="688" y="578" width="232" height="554" frameX="-29" frameY="-55" frameWidth="300" frameHeight="610" />
+<SubTexture name="azki bop 10001" x="0" y="578" width="228" height="559" frameX="-31" frameY="-51" frameWidth="300" frameHeight="610" />
+<SubTexture name="azki bop 20001" x="228" y="578" width="228" height="559" frameX="-31" frameY="-50" frameWidth="300" frameHeight="610" />
+<SubTexture name="azki bop 10002" x="868" y="0" width="225" height="563" frameX="-33" frameY="-47" frameWidth="300" frameHeight="610" />
+<SubTexture name="azki bop 20002" x="1093" y="0" width="225" height="563" frameX="-33" frameY="-46" frameWidth="300" frameHeight="610" />
+<SubTexture name="azki bop 10003" x="0" y="0" width="215" height="578" frameX="-39" frameY="-31" frameWidth="300" frameHeight="610" />
+<SubTexture name="azki bop 20003" x="215" y="0" width="215" height="577" frameX="-39" frameY="-31" frameWidth="300" frameHeight="610" />
+<SubTexture name="azki bop 10004" x="430" y="0" width="219" height="569" frameX="-37" frameY="-40" frameWidth="300" frameHeight="610" />
+<SubTexture name="azki bop 20004" x="649" y="0" width="219" height="569" frameX="-37" frameY="-39" frameWidth="300" frameHeight="610" />
+</TextureAtlas>

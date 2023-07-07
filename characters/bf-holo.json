@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF idle dance"
+		},
+		{
+			"offsets": [
+				1,
+				66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF Up Pose"
+		},
+		{
+			"offsets": [
+				-48,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF Right Pose"
+		},
+		{
+			"offsets": [
+				40,
+				-28
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF Left Pose"
+		},
+		{
+			"offsets": [
+				5,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF Down Pose"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/KanjiAssets",
+	"position": [
+		20,
+		280
+	],
+	"healthicon": "bf-holo",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		0,
+		255
+	],
+	"camera_position": [
+		40,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

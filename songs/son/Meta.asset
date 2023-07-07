@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ab011823bb4f040f6a1985f9516963, type: 3}
+  m_Name: Meta
+  m_EditorClassIdentifier:
+  name: Son
+  artist: GGalactigal
+  week: 7
+  useVocals: 0
+  isEx: 0
+  freeplayDialogue: 0
+  IgnoreCharacter: 1
+  DisallowPlayOpponent: 0
+  RequireUnlock: 1
+  SwitchLosingAndWinningInPlayOpponentMode: 0
+  HolomemDisable: 0
+  NewTag: 1
+  ClearFlags: []
+  difficulties:
+  - hidden: 0
+    name: easy
+    chart:
+      m_AssetGUID: 279e52977ed8cbb438e9c52b4f880047
+      m_SubObjectName:
+      m_SubObjectType:
+    charter: firubii
+    displayName: Easy
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+  - hidden: 0
+    name: normal
+    chart:
+      m_AssetGUID: 135fa2c7713d75742b8c5ac206b1435b
+      m_SubObjectName:
+      m_SubObjectType:
+    charter: firubii
+    displayName: Normal
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+  - hidden: 0
+    name: hard
+    chart:
+      m_AssetGUID: 9f7d23d332f3aea45accb772f2e164b0
+      m_SubObjectName:
+      m_SubObjectType:
+    charter: firubii
+    displayName: Hard
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 1
+  initDifficulty: normal
+  icon:
+    m_AssetGUID: 9e4dcb5c1e4b4a0498e3fd24947a55a1
+    m_SubObjectName: roberu_neutral
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  selectedIcon:
+    m_AssetGUID: 9e4dcb5c1e4b4a0498e3fd24947a55a1
+    m_SubObjectName: roberu_winning
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  background:
+    m_AssetGUID: 4d0624e4a8b8bf349910b28eb0cc5e4e
+    m_SubObjectName: roberu
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  colors:
+  - r: 0.99215686
+    g: 0.654902
+    b: 0.43529412
+    a: 1
+  loadingScreen:
+    m_AssetGUID:
+    m_SubObjectName:
+    m_SubObjectType:
+  PreSongDialogue: {fileID: 11400000, guid: 335a1376cb4c81d42b0f82d81ff0c36a, type: 2}
+  PostSongDialogue: {fileID: 0}

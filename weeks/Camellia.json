@@ -1,0 +1,40 @@
+{
+	"songs": [
+		[
+			"Ghost VIP",
+			"face",
+			[
+				255,
+				215,
+				240
+			]
+		],
+		[
+			"Toast",
+			"bobmellia",
+			[
+				255,
+				215,
+				240
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your New Week",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

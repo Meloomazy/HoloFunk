@@ -1,0 +1,27 @@
+
+function onCreatePost()
+
+	if not middlescroll then -- Checks if it isn't middlescroll
+		for i=0, getProperty('playerStrums.length')-1 do -- Moves Player Strums to The place where oppponent strums were
+			setPropertyFromGroup('playerStrums', i, 'x', getPropertyFromGroup('opponentStrums', i, 'x'))
+		end
+		for i=0, getProperty('opponentStrums.length')-1 do -- Since I am stupid and bad at symmetry, I made this bad convert from opponent to player positions
+			setPropertyFromGroup('opponentStrums', i, 'x', 732 + i*112)
+		end
+	end
+
+	for i=0, getProperty('unspawnNotes.length') do
+		setPropertyFromGroup('unspawnNotes', i, 'mustPress', not getPropertyFromGroup('unspawnNotes', i, 'mustPress'))
+        setPropertyFromGroup('unspawnNotes', i, 'noAnimation', true)
+	end
+
+end
+
+function goodNoteHit(id,dir,nt,sus)
+    setProperty('dad.holdTimer',0)
+    playAnim('dad', getProperty('singAnimations')[dir+1], true)        
+end
+function opponentNoteHit(id,dir,nt,sus)
+    setProperty('boyfriend.holdTimer',0)
+    playAnim('boyfriend', getProperty('singAnimations')[dir+1], true)   
+end

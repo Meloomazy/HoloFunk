@@ -1,0 +1,29 @@
+{
+	"name": "GHOST VIP",
+	"artist": "Original: Camellia\nVocals: LiterallyNoOne",
+	"week": 2,
+	"difficulties": [
+		{
+			"name": "easy",
+			"chart": "ghost-vip-easy",
+			"charter": "Roko, Fox",
+			"displayName": "Normal"
+		},
+		{
+			"name": "normal",
+			"chart": "ghost-vip",
+			"charter": "Somf",
+			"displayName": "Hard"
+		},
+		{
+			"name": "hard",
+			"chart": "ghost-vip-hard",
+			"charter": "Brownie, Ragi",
+			"displayName": "Maniac"
+		}
+	],
+	"initDifficulty": "normal",
+	"icon": "camellia",
+	"background": "bgDesat",
+	"colors": [ "0xFFFFFFFF" ]
+}

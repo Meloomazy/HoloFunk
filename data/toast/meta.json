@@ -1,0 +1,27 @@
+{
+	"name": "Toast",
+	"artist": "Original: Your Mother\nArrange: Bobmellia :) :) :)",
+	"week": 0,
+	"difficulties": [
+		{
+			"hidden": true,
+			"name": "easy",
+			"chart": "toast-easy",
+			"displayName": "Normal"
+		},
+		{
+			"name": "normal",
+			"chart": "toast",
+			"displayName": "Hard"
+		},
+		{
+			"name": "hard",
+			"chart": "toast-hard",
+			"displayName": "Maniac"
+		}
+	],
+	"initDifficulty": "hard",
+	"icon": "bobmellia",
+	"background": "bgDesat",
+	"colors": [ "0xFFFFFFFF" ]
+}

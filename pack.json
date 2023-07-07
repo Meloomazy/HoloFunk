@@ -1,0 +1,7 @@
+{
+	"name": "HoloFunk + Camellia",
+	"description": "no way! HOLOFUNK!??!",
+	"restart":true,
+	"runsGlobally": true,
+	"color": [155, 212, 23]
+}

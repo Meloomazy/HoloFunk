@@ -1,0 +1,576 @@
+{
+ "events": [
+   {
+    "step": 50,
+    "name": "changeBPM",
+    "args": [
+     220
+    ]
+   },
+   {
+    "step": 376,
+    "name": "funnyLTGevent",
+    "args": [
+     "freddy"
+    ]
+   },
+   {
+    "step": 1250,
+    "name": "funnyVideoEvent",
+    "args": [
+     "yojet"
+    ]
+   },
+   {
+    "step": 1356,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "bf-firealarm"
+    ]
+   },
+   {
+    "step": 1408,
+    "args": [
+     "player",
+     "bf"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 1536,
+    "name": "changeChar",
+    "args": [
+     "opponent",
+     "doorstuck"
+    ]
+   },
+   {
+    "step": 1596,
+    "name": "funnyVideoEvent",
+    "args": [
+     "woopssailing"
+    ]
+   },
+   {
+    "step": 1596,
+    "name": "changeChar",
+    "args": [
+     "opponent",
+     "bobmellia"
+    ]
+   },
+   {
+    "step": 1720,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "damndaniel"
+    ]
+   },
+   {
+    "step": 1728,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "bf"
+    ]
+   },
+   {
+    "step": 1740,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "damndaniel"
+    ]
+   },
+   {
+    "step": 1792,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "bf"
+    ]
+   },
+   {
+    "step": 1868,
+    "args": [
+     "player",
+     "pufferfish"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 1920,
+    "args": [
+     "player",
+     "wario"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 1936,
+    "args": [
+     "player",
+     "waluigi"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 1984,
+    "name": "vineBoom",
+    "args": [
+     "camelliaSad"
+    ]
+   },
+   {
+    "step": 1984,
+    "args": [
+     "player",
+     "bf"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 2112,
+    "name": "funnyLTGevent",
+    "args": [
+     "lowtier_jurassic"
+    ]
+   },
+   {
+    "step": 2496,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 2816,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "verbalase"
+    ]
+   },
+   {
+    "step": 3056,
+    "name": "funnyLTGevent",
+    "args": [
+     "freddy2"
+    ]
+   },
+   {
+    "step": 3072,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "bf"
+    ]
+   },
+   {
+    "step": 3311,
+    "name": "funnyVideoEvent",
+    "args": [
+     "rushf"
+    ]
+   },
+   {
+    "step": 3680,
+    "args": [
+     "opponent",
+     "omniman"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 3744,
+    "args": [
+     "opponent",
+     "bobmellia"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 3808,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "markiplier"
+    ]
+   },
+   {
+    "step": 3904,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "bf"
+    ]
+   },
+   {
+    "step": 3920,
+    "args": [
+     "player",
+     "scott"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 4032,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "bf"
+    ]
+   },
+   {
+    "step": 4048,
+    "args": [
+     "happy_feet"
+    ],
+    "name": "funnyLTGevent"
+   },
+   {
+    "step": 4288,
+    "args": [
+     "opponent",
+     "eduardo"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 4288,
+    "args": [
+     "opponent",
+     "well"
+    ],
+    "name": "charaAnim"
+   },
+   {
+    "step": 4292,
+    "args": [
+     "opponent",
+     "well"
+    ],
+    "name": "charaAnim"
+   },
+   {
+    "step": 4296,
+    "args": [
+     "opponent",
+     "well"
+    ],
+    "name": "charaAnim"
+   },
+   {
+    "step": 4320,
+    "args": [
+     "glitchy_stuff"
+    ],
+    "name": "funnyLTGevent"
+   },
+   {
+    "step": 4320,
+    "args": [
+     "opponent",
+     "bobmellia"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 4520,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "tyler1"
+    ]
+   },
+   {
+    "step": 4576,
+    "args": [
+     "player",
+     "bf"
+    ],
+    "name": "changeChar"
+   },
+   {
+    "step": 5172,
+    "name": "funnyLTGevent",
+    "args": [
+     "speedrun"
+    ]
+   },
+   {
+    "step": 5408,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5440,
+    "args": [
+     "charles"
+    ],
+    "name": "funnyLTGevent"
+   },
+   {
+    "step": 5504,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5508,
+    "name": "changeChar",
+    "args": [
+     "opponent",
+     "bobangry"
+    ]
+   },
+   {
+    "step": 5626,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5633,
+    "args": [
+     "sadBF"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5640,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5648,
+    "args": [
+     "sadBF"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5655,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5661,
+    "args": [
+     "sadBF"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5670,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5677,
+    "args": [
+     "sadBF"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5685,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5692,
+    "args": [
+     "sadBF"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5699,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5706,
+    "args": [
+     "sadBF"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5713,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5720,
+    "args": [
+     "sadBF"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5728,
+    "args": [
+     "camelliaSad"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5736,
+    "args": [
+     "sadBF"
+    ],
+    "name": "vineBoom"
+   },
+   {
+    "step": 5744,
+    "name": "changeChar",
+    "args": [
+     "opponent",
+     "bobmellia"
+    ]
+   },
+   {
+    "step": 5778,
+    "name": "vineBoom",
+    "args": [
+     "sadBF"
+    ]
+   },
+   {
+    "step": 5780,
+    "name": "vineBoom",
+    "args": [
+     "camelliaSad"
+    ]
+   },
+   {
+    "step": 5782,
+    "name": "vineBoom",
+    "args": [
+     "sadBF"
+    ]
+   },
+   {
+    "step": 5784,
+    "name": "vineBoom",
+    "args": [
+     "camelliaSad"
+    ]
+   },
+   {
+    "step": 5786,
+    "name": "vineBoom",
+    "args": [
+     "sadBF"
+    ]
+   },
+   {
+    "step": 5788,
+    "name": "vineBoom",
+    "args": [
+     "camelliaSad"
+    ]
+   },
+   {
+    "step": 5790,
+    "name": "vineBoom",
+    "args": [
+     "sadBF"
+    ]
+   },
+   {
+    "step": 6048,
+    "name": "changeChar",
+    "args": [
+     "opponent",
+     "matt"
+    ]
+   },
+   {
+    "step": 6176,
+    "name": "changeChar",
+    "args": [
+     "opponent",
+     "bobmellia"
+    ]
+   },
+   {
+    "step": 6176,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "jackblack"
+    ]
+   },
+   {
+    "step": 6271,
+    "name": "funnyVideoEvent",
+    "args": [
+     "miranda"
+    ]
+   },
+   {
+    "step": 6271,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "bf"
+    ]
+   },
+   {
+    "step": 6640,
+    "args": [
+     true,
+     true,
+     false
+    ],
+    "name": "friendEvent"
+   },
+   {
+    "step": 6770,
+    "args": [
+     false,
+     false,
+     false
+    ],
+    "name": "friendEvent"
+   },
+   {
+    "step": 6950,
+    "name": "changeChar",
+    "args": [
+     "player",
+     "bf-dead"
+    ]
+   },
+   {
+    "step": 6962,
+    "args": [
+     false,
+     false,
+     true
+    ],
+    "name": "friendEvent"
+   }
+  ]
+}

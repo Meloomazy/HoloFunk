@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Okayu.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="OgayuIdle0000" x="2" y="2" width="307" height="676" frameX="0" frameY="-13" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0001" x="2" y="2" width="307" height="676" frameX="0" frameY="-13" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0002" x="313" y="2" width="307" height="678" frameX="-1" frameY="-12" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0003" x="313" y="2" width="307" height="678" frameX="-1" frameY="-12" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0004" x="624" y="2" width="302" height="684" frameX="-1" frameY="-6" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0005" x="624" y="2" width="302" height="684" frameX="-1" frameY="-6" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0006" x="930" y="2" width="297" height="690" frameX="-4" frameY="0" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0007" x="930" y="2" width="297" height="690" frameX="-4" frameY="0" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0008" x="1231" y="2" width="295" height="690" frameX="-5" frameY="0" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0009" x="1231" y="2" width="295" height="690" frameX="-5" frameY="0" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0010" x="1530" y="2" width="295" height="690" frameX="-5" frameY="0" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0011" x="1530" y="2" width="295" height="690" frameX="-5" frameY="0" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0012" x="1530" y="2" width="295" height="690" frameX="-5" frameY="0" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuIdle0013" x="1530" y="2" width="295" height="690" frameX="-5" frameY="0" frameWidth="308" frameHeight="690"/>
+	<SubTexture name="OgayuLeft0000" x="1829" y="2" width="455" height="696" frameX="0" frameY="-7" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="OgayuLeft0001" x="1829" y="2" width="455" height="696" frameX="0" frameY="-7" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="OgayuLeft0002" x="2288" y="2" width="447" height="702" frameX="-9" frameY="-1" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="OgayuLeft0003" x="2288" y="2" width="447" height="702" frameX="-9" frameY="-1" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="OgayuLeft0004" x="2739" y="2" width="445" height="703" frameX="-12" frameY="0" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="OgayuLeft0005" x="2739" y="2" width="445" height="703" frameX="-12" frameY="0" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="OgayuLeft0006" x="2739" y="2" width="445" height="703" frameX="-12" frameY="0" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="OgayuLeft0007" x="2739" y="2" width="445" height="703" frameX="-12" frameY="0" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="OgayuLeft0008" x="2739" y="2" width="445" height="703" frameX="-12" frameY="0" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="OgayuLeft0009" x="2739" y="2" width="445" height="703" frameX="-12" frameY="0" frameWidth="457" frameHeight="703"/>
+	<SubTexture name="Okayu Right0000" x="3188" y="2" width="383" height="698" frameX="-5" frameY="0" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0001" x="3188" y="2" width="383" height="698" frameX="-5" frameY="0" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0002" x="3575" y="2" width="370" height="696" frameX="-4" frameY="-2" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0003" x="3575" y="2" width="370" height="696" frameX="-4" frameY="-2" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0004" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0005" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0006" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0007" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0008" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0009" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0010" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0011" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0012" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0013" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0014" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0015" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0016" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0017" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0018" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0019" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0020" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0021" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0022" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Right0023" x="2" y="709" width="371" height="695" frameX="0" frameY="-3" frameWidth="388" frameHeight="698"/>
+	<SubTexture name="Okayu Up0000" x="377" y="709" width="300" height="739" frameX="-11" frameY="0" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0001" x="377" y="709" width="300" height="739" frameX="-11" frameY="0" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0002" x="681" y="709" width="314" height="723" frameX="-4" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0003" x="681" y="709" width="314" height="723" frameX="-4" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0004" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0005" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0006" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0007" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0008" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0009" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0010" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0011" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0012" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0013" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0014" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0015" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0016" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0017" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0018" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0019" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0020" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0021" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0022" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0023" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0024" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0025" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0026" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0027" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0028" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0029" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0030" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0031" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0032" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="Okayu Up0033" x="999" y="709" width="320" height="722" frameX="0" frameY="-15" frameWidth="320" frameHeight="739"/>
+	<SubTexture name="OkayuDown0000" x="1323" y="709" width="336" height="657" frameX="0" frameY="-18" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0001" x="1323" y="709" width="336" height="657" frameX="0" frameY="-18" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0002" x="1663" y="709" width="318" height="673" frameX="-13" frameY="-2" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0003" x="1663" y="709" width="318" height="673" frameX="-13" frameY="-2" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0004" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0005" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0006" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0007" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0008" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0009" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0010" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0011" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0012" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0013" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0014" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0015" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0016" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0017" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0018" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0019" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0020" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0021" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0022" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0023" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+	<SubTexture name="OkayuDown0024" x="1985" y="709" width="308" height="675" frameX="-21" frameY="0" frameWidth="336" frameHeight="675"/>
+</TextureAtlas>

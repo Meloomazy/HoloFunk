@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="PixelOkayu.png">
+<SubTexture name="PixelOkayu eat0000" x="0" y="0" width="51" height="20" frameX="-1" frameY="-1" frameWidth="52" frameHeight="24" />
+<SubTexture name="PixelOkayu eat0001" x="0" y="20" width="45" height="20" frameX="-4" frameY="-2" frameWidth="52" frameHeight="24" />
+<SubTexture name="PixelOkayu eat0002" x="51" y="0" width="46" height="20" frameX="-2" frameY="-2" frameWidth="52" frameHeight="24" />
+<SubTexture name="PixelOkayu eat0003" x="51" y="20" width="46" height="19" frameX="-2" frameY="-2" frameWidth="52" frameHeight="24" />
+</TextureAtlas>

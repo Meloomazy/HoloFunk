@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="choco.png">
+<SubTexture name="choco bop 10000" x="0" y="0" width="391" height="600" frameX="-37" frameY="-48" frameWidth="450" frameHeight="650" />
+<SubTexture name="choco bop 20000" x="391" y="0" width="391" height="600" frameX="-37" frameY="-48" frameWidth="450" frameHeight="650" />
+<SubTexture name="choco bop 10001" x="782" y="0" width="398" height="591" frameX="-33" frameY="-57" frameWidth="450" frameHeight="650" />
+<SubTexture name="choco bop 20001" x="1180" y="0" width="398" height="591" frameX="-33" frameY="-57" frameWidth="450" frameHeight="650" />
+<SubTexture name="choco bop 10002" x="0" y="600" width="409" height="587" frameX="-29" frameY="-62" frameWidth="450" frameHeight="650" />
+<SubTexture name="choco bop 20002" x="409" y="600" width="409" height="587" frameX="-29" frameY="-63" frameWidth="450" frameHeight="650" />
+<SubTexture name="choco bop 10003" x="0" y="1187" width="421" height="569" frameX="-24" frameY="-79" frameWidth="450" frameHeight="650" />
+<SubTexture name="choco bop 20003" x="421" y="1187" width="421" height="569" frameX="-24" frameY="-80" frameWidth="450" frameHeight="650" />
+<SubTexture name="choco bop 10004" x="818" y="600" width="413" height="578" frameX="-27" frameY="-69" frameWidth="450" frameHeight="650" />
+<SubTexture name="choco bop 20004" x="1578" y="0" width="413" height="578" frameX="-27" frameY="-70" frameWidth="450" frameHeight="650" />
+</TextureAtlas>

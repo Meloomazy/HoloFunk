@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "OgayuIdle"
+		},
+		{
+			"offsets": [
+				145,
+				16
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "OgayuLeft"
+		},
+		{
+			"offsets": [
+				40,
+				-23
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "OkayuDown"
+		},
+		{
+			"offsets": [
+				38,
+				41
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Okayu Up"
+		},
+		{
+			"offsets": [
+				-26,
+				-2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Okayu Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Okayu",
+	"position": [
+		100,
+		90
+	],
+	"healthicon": "ogayu",
+	"flip_x": false,
+	"healthbar_colors": [
+		218,
+		140,
+		213
+	],
+	"camera_position": [
+		200,
+		0
+	],
+	"sing_duration": 4.1,
+	"scale": 1
+}

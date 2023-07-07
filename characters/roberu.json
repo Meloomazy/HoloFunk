@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SonIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				-3
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SonLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				-34
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SonDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				35
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SonUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				-7
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SonRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Roberu",
+	"position": [
+		50,
+		50
+	],
+	"healthicon": "roberu",
+	"flip_x": false,
+	"healthbar_colors": [
+		249,
+		162,
+		110
+	],
+	"camera_position": [
+		200,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

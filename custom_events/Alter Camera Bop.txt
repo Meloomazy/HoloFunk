@@ -1,0 +1,4 @@
+camera boping literally
+
+value 1 = intensity
+value 2 = freq of beat

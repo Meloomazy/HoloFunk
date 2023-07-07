@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [0, 2, 4, 6, 8],
+			"fps": 12,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "OgalloIdle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [14, 16, 18, 20, 22],
+			"fps": 12,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "OgalloIdle"
+		},
+		{
+			"offsets": [
+				55,
+				26
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "OgalloLeft"
+		},
+		{
+			"offsets": [
+				16,
+				-6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "OgalloDown"
+		},
+		{
+			"offsets": [
+				-14,
+				53
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "OgalloUp"
+		},
+		{
+			"offsets": [
+				-57,
+				12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "OgalloRight"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Ogallo",
+	"position": [
+		0,
+		110
+	],
+	"healthicon": "Ogallo",
+	"flip_x": false,
+	"healthbar_colors": [
+		218,
+		140,
+		213
+	],
+	"camera_position": [
+		200,
+		0
+	],
+	"sing_duration": 4.1,
+	"scale": 1
+}
