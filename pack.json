@@ -2,6 +2,6 @@
 	"name": "HoloFunk + Camellia",
 	"description": "no way! HOLOFUNK!??!",
 	"restart":true,
-	"runsGlobally": true,
+	"runsGlobally": false,
 	"color": [155, 212, 23]
 }

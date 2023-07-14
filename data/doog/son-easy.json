@@ -1,0 +1,314 @@
+{
+    "timeSigNumerator": 4,
+    "timeSigDenominator": 4,
+    "bpms": [
+        {
+            "time": 0.0,
+            "bpm": 135.0
+        }
+    ],
+    "scrollSpeed": 1.600000023841858,
+    "lanes": 4,
+    "countdown": true,
+    "characterCharts": [
+        {
+            "visible": true,
+            "chartType": 1,
+            "characters": [
+                "roberu"
+            ],
+            "notes": [
+                {
+                    "lane": 1,
+                    "type": "normal",
+                    "time": 0.25,
+                    "length": 0.1875
+                },
+                {
+                    "lane": 2,
+                    "type": "normal",
+                    "time": 0.5,
+                    "length": 1.1875
+                },
+                {
+                    "lane": 0,
+                    "type": "normal",
+                    "time": 1.75,
+                    "length": 0.0
+                },
+                {
+                    "lane": 1,
+                    "type": "normal",
+                    "time": 1.8749998807907105,
+                    "length": 0.0
+                },
+                {
+                    "lane": 2,
+                    "type": "normal",
+                    "time": 2.0,
+                    "length": 0.0
+                },
+                {
+                    "lane": 1,
+                    "type": "normal",
+                    "time": 2.0625,
+                    "length": 0.0
+                },
+                {
+                    "lane": 2,
+                    "type": "normal",
+                    "time": 2.1875,
+                    "length": 0.0
+                },
+                {
+                    "lane": 3,
+                    "type": "normal",
+                    "time": 2.375,
+                    "length": 0.0
+                },
+                {
+                    "lane": 0,
+                    "type": "normal",
+                    "time": 2.4375,
+                    "length": 0.0
+                },
+                {
+                    "lane": 1,
+                    "type": "normal",
+                    "time": 2.499999761581421,
+                    "length": 0.75
+                },
+                {
+                    "lane": 0,
+                    "type": "normal",
+                    "time": 4.875,
+                    "length": 0.0
+                },
+                {
+                    "lane": 3,
+                    "type": "normal",
+                    "time": 4.937499523162842,
+                    "length": 0.0
+                },
+                {
+                    "lane": 2,
+                    "type": "0",
+                    "time": 4.999500274658203,
+                    "length": 0.3121874928474426
+                },
+                {
+                    "lane": 3,
+                    "type": "normal",
+                    "time": 5.375,
+                    "length": 0.0
+                },
+                {
+                    "lane": 0,
+                    "type": "normal",
+                    "time": 5.437500476837158,
+                    "length": 0.0
+                },
+                {
+                    "lane": 1,
+                    "type": "normal",
+                    "time": 5.5,
+                    "length": 0.125
+                },
+                {
+                    "lane": 2,
+                    "type": "normal",
+                    "time": 5.687500476837158,
+                    "length": 0.0
+                },
+                {
+                    "lane": 3,
+                    "type": "normal",
+                    "time": 5.875,
+                    "length": 0.3125
+                },
+                {
+                    "lane": 0,
+                    "type": "normal",
+                    "time": 6.250000476837158,
+                    "length": 0.0
+                },
+                {
+                    "lane": 2,
+                    "type": "normal",
+                    "time": 6.375,
+                    "length": 0.0
+                },
+                {
+                    "lane": 1,
+                    "type": "normal",
+                    "time": 6.500000476837158,
+                    "length": 0.1875
+                },
+                {
+                    "lane": 0,
+                    "type": "normal",
+                    "time": 6.750000476837158,
+                    "length": 0.1875
+                },
+                {
+                    "lane": 2,
+                    "type": "normal",
+                    "time": 7.000000476837158,
+                    "length": 0.1875
+                },
+                {
+                    "lane": 3,
+                    "type": "normal",
+                    "time": 7.250000476837158,
+                    "length": 0.1875
+                }
+            ]
+        },
+        {
+            "visible": true,
+            "chartType": 0,
+            "characters": [
+                "aloo-nerd"
+            ],
+            "notes": [
+                {
+                    "lane": 1,
+                    "type": "0",
+                    "time": 3.375,
+                    "length": 0.0
+                },
+                {
+                    "lane": 2,
+                    "type": "0",
+                    "time": 3.4374372959136965,
+                    "length": 0.0
+                },
+                {
+                    "lane": 3,
+                    "type": "0",
+                    "time": 3.4998748302459719,
+                    "length": 0.0
+                },
+                {
+                    "lane": 1,
+                    "type": "0",
+                    "time": 3.6247498989105226,
+                    "length": 0.0
+                },
+                {
+                    "lane": 0,
+                    "type": "0",
+                    "time": 3.687187433242798,
+                    "length": 0.0
+                },
+                {
+                    "lane": 2,
+                    "type": "0",
+                    "time": 3.8120625019073488,
+                    "length": 0.0
+                },
+                {
+                    "lane": 1,
+                    "type": "0",
+                    "time": 3.874499797821045,
+                    "length": 0.0
+                },
+                {
+                    "lane": 2,
+                    "type": "0",
+                    "time": 3.9999372959136965,
+                    "length": 0.0
+                },
+                {
+                    "lane": 3,
+                    "type": "0",
+                    "time": 4.187249660491943,
+                    "length": 0.0
+                },
+                {
+                    "lane": 0,
+                    "type": "0",
+                    "time": 4.3745622634887699,
+                    "length": 0.43706250190734866
+                },
+                {
+                    "lane": 0,
+                    "type": "normal",
+                    "time": 5.375,
+                    "length": 0.0
+                },
+                {
+                    "lane": 3,
+                    "type": "normal",
+                    "time": 5.437500476837158,
+                    "length": 0.0
+                },
+                {
+                    "lane": 2,
+                    "type": "normal",
+                    "time": 5.5,
+                    "length": 0.125
+                },
+                {
+                    "lane": 1,
+                    "type": "normal",
+                    "time": 5.687500476837158,
+                    "length": 0.0
+                },
+                {
+                    "lane": 0,
+                    "type": "normal",
+                    "time": 5.875,
+                    "length": 0.3125
+                },
+                {
+                    "lane": 3,
+                    "type": "normal",
+                    "time": 6.250000476837158,
+                    "length": 0.0
+                },
+                {
+                    "lane": 1,
+                    "type": "normal",
+                    "time": 6.375,
+                    "length": 0.0
+                },
+                {
+                    "lane": 2,
+                    "type": "normal",
+                    "time": 6.500000476837158,
+                    "length": 0.1875
+                },
+                {
+                    "lane": 3,
+                    "type": "normal",
+                    "time": 6.750000476837158,
+                    "length": 0.1875
+                },
+                {
+                    "lane": 1,
+                    "type": "normal",
+                    "time": 7.000000476837158,
+                    "length": 0.1875
+                },
+                {
+                    "lane": 0,
+                    "type": "normal",
+                    "time": 7.250000476837158,
+                    "length": 0.1875
+                }
+            ]
+        },
+        {
+            "visible": false,
+            "chartType": 2,
+            "characters": [
+                "naenae-jojo"
+            ],
+            "notes": []
+        }
+    ],
+    "middleScroll": false,
+    "stage": "onigiri",
+    "uiStyle": "holofunk"
+}

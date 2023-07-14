@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "KoroneIdle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [8, 9, 10, 11],
+			"name": "KoroneIdle"
+		},
+		{
+			"offsets": [
+				13,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "KoroneLeft"
+		},
+		{
+			"offsets": [
+				-4,
+				-69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "KoroneDown"
+		},
+		{
+			"offsets": [
+				-5,
+				41
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "KoroneUp"
+		},
+		{
+			"offsets": [
+				-5,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "KoroneRight"
+		},
+		{
+			"offsets": [
+				131,
+				209
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "chainsawAttack",
+			"indices": [],
+			"name": "KoroneChainsawAttack"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Kone",
+	"position": [
+		0,
+		110
+	],
+	"healthicon": "koro",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		211,
+		81
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.1,
+	"scale": 1
+}

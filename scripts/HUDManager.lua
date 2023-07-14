@@ -2,7 +2,7 @@ function onCreate()
     addHaxeLibrary('Application', 'lime.app')
     addHaxeLibrary('Image','lime.graphics')
     addHaxeLibrary('ClientPrefs')
-    precacheImage('splashes/holoSplash')
+    precacheImage('splashes/holoSplashes')
     createUi()
 
 
@@ -13,6 +13,12 @@ function onCreate()
     runHaxeCode([[
         var icon = Image.fromFile(Paths.modFolders('images/app/iconFoob.png'));
         Application.current.window.setIcon(icon);
+
+        strumHUD = new FlxCamera();
+		strumHUD.bgColor = 0x00000000;
+        FlxG.cameras.add(strumHUD,false);
+        FlxG.cameras.add(game.camOther,false);
+        game.variables.set('strumHUD', strumHUD);
     ]])
 end
 function onDestroy()
@@ -42,13 +48,6 @@ function onCreatePost()
     scaleObject('healthBar', 1.05, 1)
     scaleObject('healthBarBG', 1.05, 1)
     runHaxeCode([[
-        
-        strumHUD = new FlxCamera();
-		strumHUD.bgColor = 0x00000000;
-        FlxG.cameras.add(strumHUD,false);
-        FlxG.cameras.add(game.camOther,false);
-        game.variables.set('strumHUD', strumHUD);
-
         if (game.modchartTexts.get('UI_Original_Text') != null)
             game.modchartTexts.get('UI_Original_Text').cameras = [game.camOther];
         if (game.modchartTexts.get('UI_Chart_Text') != null)
@@ -62,7 +61,7 @@ function onCreatePost()
         for (splash in game.grpNoteSplashes) splash.cameras = [strumHUD];
         for (note in game.unspawnNotes) 
         {
-            note.cameras = [strumHUD];
+           note.cameras = [strumHUD];
             if (note.isSustainNote) note.cameras = [game.camHUD];
         };
 
@@ -129,7 +128,7 @@ function onEvent(n,v1,v2)
 end
 function onSpawnNote(i, d, t, s)
     if not disableSkin then
-        if getPropertyFromGroup('notes', i, 'noteType') == '' or getPropertyFromGroup('notes', i, 'noteType') == 'normal' then
+        if getPropertyFromGroup('notes', i, 'noteType') == '' or getPropertyFromGroup('notes', i, 'noteType') == 'normal'  or getPropertyFromGroup('notes', i, 'noteType') == 'Alt Animation' then
             if getPropertyFromGroup('notes', i, 'mustPress') then
                 setPropertyFromGroup('notes', i, 'texture', savedPLTex)
                 setPropertyFromGroup('notes', i, 'noteSplashTexture', savedSplashPLTex)
@@ -326,7 +325,7 @@ function checkCharacter()
             texSplashPL = 'noteSplashes'
         else
             texStrumsPL = 'notes/HOLONOTE_assets'
-            texSplashPL = 'splashes/holoSplash'
+            texSplashPL = 'splashes/holoSplashes'
         end
         if dadName == 'bobmellia' then
             texStrumsOP = 'NOTE_assets'
@@ -335,7 +334,7 @@ function checkCharacter()
             texStrumsOP = 'notes/Stepmania'
             texSplashOP = 'splashes/camelliaSplash'
         else
-            texSplashOP = 'splashes/holoSplash'
+            texSplashOP = 'splashes/holoSplashes'
             texStrumsOP = 'notes/HOLONOTE_assets'
         end
     else
@@ -385,7 +384,7 @@ function pulse(col)
         curPul = 1
     end
     local tag = 'UI_Health_Frame_PULSE'..curPul
-    makeLuaSprite(tag, ui..'health_border_pulse', 0, (downscroll and 57 or 692))
+    makeLuaSprite(tag, ui..'health_border_pulse', 0, (downscroll and 57 or 610))
     screenCenter(tag, 'x')
     setObjectCamera(tag, 'camHUD')
     setObjectOrder(tag,getObjectOrder('UI_Health_Frame')-1)

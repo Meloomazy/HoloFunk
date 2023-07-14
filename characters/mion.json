@@ -1,0 +1,156 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceLeft",
+			"fps": 12,
+			"name": "BF idle dance",
+			"indices": [
+				0,
+				2,
+				4,
+				6,
+				8
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 12,
+			"name": "BF idle dance",
+			"indices": [
+				14,
+				16,
+				18,
+				20,
+				22
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				-33
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "AloeLeft0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-26,
+				-73
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "AloeDown0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-17,
+				52
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "AloeUp0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-15
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "AloeRight0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				-23
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "AloeLeftMiss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				-66
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "AloeDownMisss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-17,
+				55
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "AloeUpMiss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				7
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "AloeRightMiss0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-8,
+				-5
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "BF idle shaking",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mion",
+	"position": [
+		50,
+		100
+	],
+	"healthicon": "aloe-nerd",
+	"flip_x": true,
+	"healthbar_colors": [
+		239,
+		113,
+		177
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}
