@@ -1,0 +1,29 @@
+{
+	"name": "Quaoar",
+	"artist": "Original: Camellia\nVocals: LiterallyNoOne",
+	"week": 2,
+	"difficulties": [
+		{
+			"name": "easy",
+			"chart": "quaoar-easy",
+			"charter": "Roko, Fox",
+			"displayName": "Normal"
+		},
+		{
+			"name": "normal",
+			"chart": "quaoar",
+			"charter": "Brownie",
+			"displayName": "Hard"
+		},
+		{
+			"name": "hard",
+			"chart": "quaoar-hard",
+			"charter": "Ragi",
+			"displayName": "Maniac"
+		}
+	],
+	"initDifficulty": "normal",
+	"icon": "camellia",
+	"background": "bgDesat",
+	"colors": [ "0xFFFFFFFF" ]
+}

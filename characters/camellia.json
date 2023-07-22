@@ -1,63 +1,63 @@
 {
 	"animations": [
 		{
-			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": true,
 			"fps": 24,
-			"name": "Camellia_Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Camellia_Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				4,
-				62
+				75
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Camellia_Up0",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Camellia_Up0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				-19
+				-3
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Camellia_Right0",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Camellia_Right0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				80,
-				22
+				16
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Camellia_Left0",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Camellia_Left0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				65
+				78
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Camellia_Down0",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Camellia_Down0"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/camellia_halloween",
+	"image": "characters/Camellia",
 	"position": [
 		-500,
 		-9

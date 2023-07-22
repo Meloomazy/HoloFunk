@@ -1,22 +1,39 @@
 
 function onCreatePost()
-
-	if not middlescroll then -- Checks if it isn't middlescroll
-		for i=0, getProperty('playerStrums.length')-1 do -- Moves Player Strums to The place where oppponent strums were
+	luaDebugMode = true
+	if not middlescroll then
+		for i=0, getProperty('playerStrums.length')-1 do 
 			setPropertyFromGroup('playerStrums', i, 'x', getPropertyFromGroup('opponentStrums', i, 'x'))
 		end
-		for i=0, getProperty('opponentStrums.length')-1 do -- Since I am stupid and bad at symmetry, I made this bad convert from opponent to player positions
+		for i=0, getProperty('opponentStrums.length')-1 do 
 			setPropertyFromGroup('opponentStrums', i, 'x', 732 + i*112)
 		end
 	end
-
 	for i=0, getProperty('unspawnNotes.length') do
 		setPropertyFromGroup('unspawnNotes', i, 'mustPress', not getPropertyFromGroup('unspawnNotes', i, 'mustPress'))
         setPropertyFromGroup('unspawnNotes', i, 'noAnimation', true)
 	end
-
+	runHaxeCode([[
+		game.healthBar.createFilledBar(0xFF]]..getIconColor('boyfriend')..[[, 0xFF]]..getIconColor('dad')..[[);
+	]])
 end
-
+function onUpdatePost(elapsed)
+	P1Mult = getProperty('healthBar.x') + ((getProperty('healthBar.width') * getProperty('healthBar.percent') * 0.01) + (150 * getProperty('iconP1.scale.x') - 150) / 2 - 26)
+	P2Mult = getProperty('healthBar.x') + ((getProperty('healthBar.width') * getProperty('healthBar.percent') * 0.01) - (150 * getProperty('iconP2.scale.x')) / 2 - 26 * 2)
+	setProperty('iconP1.x',P2Mult + 110)
+	setProperty('iconP2.x',P1Mult - 110)
+	setProperty('iconP1.origin.x',-100)
+	setProperty('iconP2.origin.x',240)
+	setProperty('healthBar.flipX',true)
+    local hp = getProperty('healthBar.percent')
+	if hp < 20 then
+        setProperty('iconP2.animation.curAnim.curFrame', 1)
+		setProperty('iconP1.animation.curAnim.curFrame', 0)
+    elseif hp > 80 then
+		setProperty('iconP2.animation.curAnim.curFrame', 0)
+        setProperty('iconP1.animation.curAnim.curFrame', 1)
+    end
+end
 function goodNoteHit(id,dir,nt,sus)
     setProperty('dad.holdTimer',0)
     playAnim('dad', getProperty('singAnimations')[dir+1], true)        
@@ -24,4 +41,12 @@ end
 function opponentNoteHit(id,dir,nt,sus)
     setProperty('boyfriend.holdTimer',0)
     playAnim('boyfriend', getProperty('singAnimations')[dir+1], true)   
+end
+
+function getIconColor(chr)
+	return (rgbToHex(getProperty(chr .. ".healthColorArray")))
+end
+
+function rgbToHex(array)
+	return string.format('%.2x%.2x%.2x', array[1], array[2], array[3])
 end

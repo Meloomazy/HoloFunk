@@ -33,7 +33,6 @@ local savedPLTex
 local healthOffset = 35
 function onCreatePost()
     checkCharacter()
-
     setProperty('scoreTxt.visible',false)
     setProperty('camZoomingMult',1.2)
     setProperty('camZoomingDecay',2)
@@ -111,11 +110,6 @@ function goodNoteHit(id,dir,nt,sus)
         pulse('ffffff')
     end
 end
-function opponentNoteHit(id,dir,nt,sus)
-    if sus and holdDisable then
-        setProperty('dad.holdTimer', 0)
-    end
-end
 function noteMiss(id,dir,nt,sus)
     if not sus then
         pulse('ff0000')
@@ -124,19 +118,6 @@ end
 function onEvent(n,v1,v2)
     if n == 'Change Character' then
         checkCharacter()
-    end
-end
-function onSpawnNote(i, d, t, s)
-    if not disableSkin then
-        if getPropertyFromGroup('notes', i, 'noteType') == '' or getPropertyFromGroup('notes', i, 'noteType') == 'normal'  or getPropertyFromGroup('notes', i, 'noteType') == 'Alt Animation' then
-            if getPropertyFromGroup('notes', i, 'mustPress') then
-                setPropertyFromGroup('notes', i, 'texture', savedPLTex)
-                setPropertyFromGroup('notes', i, 'noteSplashTexture', savedSplashPLTex)
-            else
-                setPropertyFromGroup('notes', i, 'texture', savedOPTex)
-                setPropertyFromGroup('notes', i, 'noteSplashTexture', savedSplashOPTex)
-            end
-        end
     end
 end
 function onCountdownTick(ti)
@@ -151,7 +132,18 @@ function onCountdownTick(ti)
         screenCenter('countdownGo')
     end
 end
-
+function onSpawnNote(i, d, t, s)
+    if not disableSkin then
+        if getPropertyFromGroup('notes', i, 'noteType') == '' or getPropertyFromGroup('notes', i, 'noteType') == 'normal'  or getPropertyFromGroup('notes', i, 'noteType') == 'Alt Animation' then
+            if getPropertyFromGroup('notes', i, 'mustPress') then
+                setPropertyFromGroup('notes', i, 'texture', savedPLTex)
+                setPropertyFromGroup('notes', i, 'noteSplashTexture', savedSplashPLTex)
+            else
+                setPropertyFromGroup('notes', i, 'texture', savedOPTex)
+            end
+        end
+    end
+end
 
 --- functions
 local disableSkin = false
@@ -194,8 +186,10 @@ function createUi()
     local original = ''
     local arrange = ''
     local charted = ''
+    local exOff = 0
 
     if week == 'Camellia' then
+        exOff = 5
         local json = dofile('mods/'..currentModDirectory..'/scripts/JSONLIB.lua')
         local jsonTable = json.parse(getTextFromFile('data/'..songPath..'/meta.json'))
         arrange = jsonTable.artist
@@ -207,16 +201,16 @@ function createUi()
 
     local y = (screenHeight)
     local textSize = 18
-    if original:find('none') then
+    if original:find('none') or original == '' then
     else
-        makeLuaText('UI_Original_Text', 'Original: '..original, 1280, 5, y-100)
+        makeLuaText('UI_Original_Text', 'Original: '..original, 1280, 5, y-100+exOff)
         setTextAlignment('UI_Original_Text','left')
         setTextFont('UI_Original_Text', fontName)
         setTextSize('UI_Original_Text', textSize)
         setTextBorder('UI_Original_Text',1,'000000')
         addLuaText('UI_Original_Text')
     end
-    makeLuaText('UI_Arrange_Text', arrange, 1280, 5, y-78)
+    makeLuaText('UI_Arrange_Text', arrange, 1280, 5, y-78+exOff)
     setTextAlignment('UI_Arrange_Text','left')
     setTextFont('UI_Arrange_Text', fontName)
     setTextSize('UI_Arrange_Text', textSize)
@@ -225,7 +219,7 @@ function createUi()
     
     if charted == '' then
     else
-        makeLuaText('UI_Chart_Text', 'Charted by: '..charted, 1280, 5, y-55)
+        makeLuaText('UI_Chart_Text', 'Charted by: '..charted, 1280, 5, y-55+exOff)
         setTextAlignment('UI_Chart_Text','left')
         setTextFont('UI_Chart_Text', fontName)
         setTextSize('UI_Chart_Text', textSize)
@@ -320,7 +314,7 @@ function checkCharacter()
     local texStrumsOP
     local texStrumsPL
     if week == 'Camellia' or week:find('HoloFunk') then
-        if boyfriendName == 'bf' or boyfriendName == 'vigilante' then
+        if boyfriendName == 'bf' then
             texStrumsPL = 'NOTE_assets'
             texSplashPL = 'noteSplashes'
         else
@@ -329,12 +323,9 @@ function checkCharacter()
         end
         if dadName == 'bobmellia' then
             texStrumsOP = 'NOTE_assets'
-            texSplashOP = 'splashes/camelliaSplash'
-        elseif dadName == 'camellia' then
+        elseif dadName:find('camellia') then
             texStrumsOP = 'notes/Stepmania'
-            texSplashOP = 'splashes/camelliaSplash'
         else
-            texSplashOP = 'splashes/holoSplashes'
             texStrumsOP = 'notes/HOLONOTE_assets'
         end
     else
@@ -353,25 +344,11 @@ function checkCharacter()
         if not disableSkin then
             if mp then
                 setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', texSplashPL)
-            else
-                setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', texSplashOP)
-            end
-        end
-        if dadName:find('camellia') then
-            holdDisable = true
-            if not mp and sus then
-                setPropertyFromGroup('unspawnNotes' ,i, 'noAnimation', true)
-            end
-        else
-            holdDisable = true
-            if not mp and sus then
-                setPropertyFromGroup('unspawnNotes' ,i, 'noAnimation', false)
             end
         end
     end
     savedOPTex = texStrumsOP
     savedPLTex = texStrumsPL
-    savedSplashOPTex = texSplashOP
     savedSplashPLTex = texSplashPL
 end
 function changeHealthOffset(x)

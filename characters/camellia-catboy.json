@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-72,
+				-7
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Camellia_Idle"
+		},
+		{
+			"offsets": [
+				-39,
+				114
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Camellia_Up0"
+		},
+		{
+			"offsets": [
+				-72,
+				36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Camellia_Right0"
+		},
+		{
+			"offsets": [
+				8,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Camellia_Left0"
+		},
+		{
+			"offsets": [
+				-72,
+				61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Camellia_Down0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Camellia_catboy",
+	"position": [
+		-500,
+		-9
+	],
+	"healthicon": "camellia",
+	"flip_x": false,
+	"healthbar_colors": [
+		213,
+		95,
+		86
+	],
+	"camera_position": [
+		40,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 0.85
+}

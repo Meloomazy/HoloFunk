@@ -1,0 +1,29 @@
+{
+	"name": "Why do you hate me?",
+	"artist": "Original: Camellia\nVocals: LiterallyNoOne",
+	"week": 1,
+	"difficulties": [
+		{
+			"name": "easy",
+			"chart": "why-do-you-hate-me-easy",
+			"charter": "Fox",
+			"displayName": "Normal"
+		},
+		{
+			"name": "normal",
+			"chart": "why-do-you-hate-me",
+			"charter": "Fox",
+			"displayName": "Hard"
+		},
+		{
+			"name": "hard",
+			"chart": "why-do-you-hate-me-hard",
+			"charter": "Fox",
+			"displayName": "Maniac"
+		}
+	],
+	"initDifficulty": "normal",
+	"icon": "camellia",
+	"background": "bgDesat",
+	"colors": [ "0xFFFFFFFF" ]
+}

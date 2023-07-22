@@ -1,0 +1,73 @@
+{
+    "events": [
+        {
+            "name": "camelliaZoom",
+            "step": 704,
+            "args": []
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 1198,
+            "args": [1]
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 1246,
+            "args": [1, 1.15]
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 1278,
+            "args": [1]
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 1310,
+            "args": [1, 1.15]
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 1341,
+            "args": [1]
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 1373,
+            "args": [1, 1.15]
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 1471,
+            "args": [3]
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 1600,
+            "args": []
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 1853,
+            "args": [3]
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 2174,
+            "args": [1, 1.15]
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 2413,
+            "args": [2]
+        },  
+        {
+            "name": "camelliaZoom",
+            "step": 2432,
+            "args": []
+        },
+        {
+            "name": "camelliaZoom",
+            "step": 2942,
+            "args": [3]
+        }]
+   }

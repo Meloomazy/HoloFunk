@@ -1,0 +1,355 @@
+{
+    "events": [
+        {
+         "step": 0,
+         "name": "changeBPM",
+         "args": [
+          140
+         ]
+        },
+        {
+         "name": "charaAnim",
+         "step": 387,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 395,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 403,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 411,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 419,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 427,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 435,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 443,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 451,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 459,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 467,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 475,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 483,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 491,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 499,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 507,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1027,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1035,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1043,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1051,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1059,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1067,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1075,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1091,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1099,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1107,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1115,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1123,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1131,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1139,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1155,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1163,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1171,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1179,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1187,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1195,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1203,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1227,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1235,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1243,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1251,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1259,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 1267,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2052,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2060,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2068,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2076,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2084,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2092,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2100,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2116,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2124,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2132,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2140,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2148,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2156,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2164,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2180,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2188,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2196,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2204,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2212,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2220,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2228,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2252,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2260,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2276,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2284,
+         "args": ["speaker", "cheer"]
+        },
+        {
+         "name": "charaAnim",
+         "step": 2292,
+         "args": ["speaker", "cheer"]
+        }]
+}
